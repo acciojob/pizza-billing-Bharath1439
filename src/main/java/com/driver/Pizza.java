@@ -23,6 +23,7 @@ public class Pizza {
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
         this.chees=80;
+        this.takeaway=20;
         if(isVeg){
             this.price=300;
             this.toppings=70;
@@ -31,7 +32,7 @@ public class Pizza {
             this.price=400;
             this.toppings=120;
         }
-        this.takeaway=20;
+
 
         this.istakeaway=false;
 
